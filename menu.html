@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="./IMAGES/loggo.png">
+    <link rel="stylesheet" href="./menu.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Dancing+Script:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playball&family=Playwrite+BE+VLG:wght@100..400&family=Playwrite+BE+WAL:wght@100..400&family=Playwrite+NL:wght@100..400&family=Great+Vibes&family=Grey+Qo&family=Playwrite+SK:wght@100..400&family=Sacramento&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hafiz Catering | Menu</title>
+</head>
+<body class="red-text-menu-body">
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="./IMAGES/loggo.png" alt="Logo">
+      <p class="brand-title"><a href='/'>Hafiz Catering and Decorators</a></p>
+    </div>
+    <button class="hamburger">&#9776;</button>
+    <div class="navbar-links">
+      <button class="close-menu">&times;</button>
+      <ul>
+        <li><a href='./'>Home</a></li>
+        <li><a href='./menu.html'>Menu</a></li>
+        <li><a href='./event.html'>Comments</a></li>
+        <li><a href='./contact2.html'>Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- MENU CARDS -->
+
+  <!-- <section class="menu">
+  <h2 class="menu-title" id="hd">Our Menu</h2>
+
+
+<h3 class="menu-title" id="hd2">Biryani</h3>
+  <div class="menu-container">
+    <div class="menu-card fade-up">
+      <img src="./IMAGES/download (1).jpg  " alt="Burger">
+
+      <h3>Chicken Sindhi Single Biryani</h3>
+      <span>320 RS.</span>
+
+      <h3>Chicken Sindhi Double Biryani</h3>
+      <span>? RS.</span>
+<br><br><br>
+
+
+    </div>
+
+    <div class="menu-card fade-up">
+      <img src="./IMAGES/madrassi.jpg" alt="Pizza">
+      <h3>Beef Madrassi Single Biryani</h3>
+      <span>440 RS.</span><br>
+
+      <h3>Beef Madrassi Double Biryani</h3>
+      <span>? RS.</span><br>
+
+    </div>
+
+    <div class="menu-card fade-up">
+      <img src="./IMAGES/malai boti miryani picture.jpg" alt="Pasta">
+      <h3>Chicken Malai Boti Single Biryani</h3>
+      <span>? RS.</span>
+
+          <h3>Chicken Malai Boti Double Biryani</h3>
+      <span>? RS.</span>
+
+    </div>
+  </div>
+</section> -->
+
+
+      <style>
+
+      </style>
+
+
+          <div class="container-menu">
+
+            <div class="card">
+              <img src="" alt="">
+              <p>Chicken Biryani Single</p><br>
+              <b>350 Rs.</b><br>
+            </div>
+
+
+          </div>
+
+
+  <!-- JS for mobile menu -->
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const navbarLinks = document.querySelector('.navbar-links');
+    const closeMenu = document.querySelector('.close-menu');
+
+    hamburger.addEventListener('click', () => {
+      navbarLinks.classList.add('active');
+    });
+
+    closeMenu.addEventListener('click', () => {
+      navbarLinks.classList.remove('active');
+    });
+  </script>
+</body>
+</html>
